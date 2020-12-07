@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&family=Shadows+Into+Light&family=Staatliches&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Open+Sans&display=swap');
+
+.about-container {
+    background-color: #dcedc1;
+    width: 100%;
+    height: auto;
+}
+.about-container p {
+    /* max-width: 750px; */
+    margin: auto;
+   font-family: 'Open Sans', sans-serif;
+}
+  .about-container .hello {
+    /* font-family: 'Reenie Beanie', sans-serif !important; */
+     /* font-family: 'Major Mono Display', monospace; */
+    /* font-family: 'Shadows Into Light', cursive; */
+   font-family: 'Open Sans', sans-serif;
+   font-weight: bold;
+    /* font-size: 42px !important; */
+} 
+
+h1 {
+    text-align: left ;
+    padding: 25px;
+    font-family: 'Major Mono Display', monospace;
+    /* font-family: 'Staatliches', sans-serif; */
+    /* font-size: 30px; */
+}
+
+.about-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.tech {
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+.about-container .bio-image {
+  height: 296px;
+  width: 250px;
+  border-radius: 5px;
+  float: left;
+}

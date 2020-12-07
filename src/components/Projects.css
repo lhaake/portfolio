@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.projects-header h1 {
+    text-align: left;
+    padding: 25px;
+    font-family: 'Major Mono Display', monospace;
+    /* font-family: 'Staatliches', sans-serif; */
+    /* font-size: 30px; */
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+}
+
+.cards {
+    margin: 10px;
+}
+
+.daily-news-image {
+    width: 286px;
+    height: 212px;
+}
+
+.tunr-image {
+    width: 286px;
+    height: 211px;
+}
+
+.palate-image {
+    width: 286px;
+    height: 207px;
+}
+
+.mytraininglog-image {
+width: 286px;
+height: 212px;
+}
+
+.card {
+    margin: 20px;
+    height: 470px;
+}
