@@ -13,7 +13,7 @@ const About = () => {
         <>
         <div className="about-container">
                 <h2>Hi! I'm Leah Haake</h2>   
-                <p>Full Stack Web Developer</p>  
+                <p>Software Engineer</p>  
         </div>
         <div className="tech"> 
             <SiHtml5 size="30px" />
@@ -29,7 +29,7 @@ const About = () => {
         <h1>about</h1>
         <div className="details">     
             <img src={biophoto} className="bio-image" alt="bio photo" />
-            <p>I'm a motivated, detail oriented Full Stack Web Developer based in Maine. My background in public health drives my interest in finding technical solutions that make a positive impact. I'm a graduate of General Assembly’s Software Engineering Immersive program. I'm enthusiastic about learning and developing my technical skills. <br /><br /> When I'm not coding, I enjoy spending time outdoors, visiting local cafes and bakeries, and exploring the beautiful Maine coast. <br />
+            <p>I'm a motivated, detail oriented Software Engineer based in Maine. I'm a graduate of General Assembly’s Software Engineering Immersive program. I'm enthusiastic about learning new technologies and using my creativity, curiousity and tenacity to solve  problems. My background in public health drives my interest in finding technical solutions that make a positive impact. <br /><br />In my free time, I enjoy hiking and exploring the beautiful Maine coast. <br />
             <Button variant=""><a href={resume} target="_blank">Resume</a></Button>   
             </p> 
         </div>

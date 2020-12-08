@@ -57,4 +57,5 @@
 .projects-container button a:hover {
      color: grey;
      font-weight: bold;
+     text-decoration: none;
 }

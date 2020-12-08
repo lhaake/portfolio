@@ -68,6 +68,12 @@ h1 {
 
 .details button a {
     color: white;
+    font-weight: bold;
+}
+.details button a:hover {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 920px) {
