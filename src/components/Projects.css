@@ -1,11 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 .projects-header h1 {
     text-align: left;
     padding: 25px 25px 0px 25px;
     font-family: 'Major Mono Display', monospace;
-    /* font-family: 'Staatliches', sans-serif; */
-    /* font-size: 30px; */
 }
 
 .projects-container {
@@ -34,8 +31,8 @@
 }
 
 .mytraininglog-image {
-width: 286px;
-height: 212px;
+    width: 286px;
+    height: 212px;
 }
 
 .card {

@@ -3,8 +3,7 @@
 footer {
     width: 100%;
     height: 100%;
-    /* min-height: 100vh; */
-    background-color: #fcf7bb; /* palegreen */
+    background-color: #fcf7bb; 
 }
 
 footer p {

@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&family=Shadows+Into+Light&family=Staatliches&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Open+Sans&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
@@ -19,18 +17,13 @@
     
 }
 .about-container p {
-    /* max-width: 750px; */
     margin: auto;
-   font-family: 'Open Sans', sans-serif;
-   font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
 }
-  .about-container h2 {
-    /* font-family: 'Reenie Beanie', sans-serif !important; */
-     /* font-family: 'Major Mono Display', monospace; */
-    /* font-family: 'Shadows Into Light', cursive; */
-   /* font-family: 'Open Sans', sans-serif; */
-   font-family: 'Secular One', sans-serif;
-   font-weight: bold;
+.about-container h2 {
+    font-family: 'Secular One', sans-serif;
+    font-weight: bold;
     font-size: 42px !important;
 } 
 
@@ -38,21 +31,14 @@ h1 {
     text-align: left ;
     padding: 25px;
     font-family: 'Major Mono Display', monospace;
-    /* font-family: 'Staatliches', sans-serif; */
-    /* font-size: 30px; */
 }
-
-
-
 
 .tech {
     padding: 25px 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
 }
-
 
 .details .bio-image {
   height: 177px;
@@ -72,29 +58,29 @@ h1 {
 .details p {
     font-family: 'Open Sans', sans-serif;
     margin: 0px 200px 40px 40px;
-    
-
 }
+
 .details button  {
     background-color: #a37eba;
     border:  #a37eba;
     margin-top: 10px;
 }
+
 .details button a {
     color: white;
 }
 
 @media screen and (max-width: 920px) {
     .details p {
-    font-family: 'Open Sans', sans-serif;
-    margin: 0px 20px 40px 40px;
-}
+        font-family: 'Open Sans', sans-serif;
+        margin: 0px 20px 40px 40px;
+    }
 }
 
 @media screen and (max-width: 600px) {
     .details p {
-    font-family: 'Open Sans', sans-serif;
-    margin: 40px 20px 40px 40px;
+        font-family: 'Open Sans', sans-serif;
+        margin: 40px 20px 40px 40px;
     } 
     
     .details{
