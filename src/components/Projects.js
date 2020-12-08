@@ -9,7 +9,7 @@ import './Projects.css';
 
 const Projects = () => {
     return (
-        <div className="projects-header" id="projects">
+        <div className="projects-header">
             <h1>projects</h1>
        
              <div className="projects-container">

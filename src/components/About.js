@@ -34,7 +34,7 @@ const About = () => {
              
             <img src={biophoto} className="bio-image" alt="bio photo" />
             
-             <p>I'm a motivated, detail oriented Full Stack Web Developer based in Maine. My background in public health drives my interest in finding technical solutions that make a positive impact. I'm a graduate of General Assembly’s Software Engineering Immersive program. I'm enthusiastic about learning and developing my technical skills. When I'm not coding, I enjoy running, visiting local cafes and bakeries, and exploring the beautiful Maine coast. <br />
+             <p>I'm a motivated, detail oriented Full Stack Web Developer based in Maine. My background in public health drives my interest in finding technical solutions that make a positive impact. I'm a graduate of General Assembly’s Software Engineering Immersive program. I'm enthusiastic about learning and developing my technical skills. When I'm not coding, I enjoy spending time outdoors, visiting local cafes and bakeries, and exploring the beautiful Maine coast. <br />
             <Button variant=""><a href={resume} target="_blank">Resume</a></Button>
                  
             </p> 

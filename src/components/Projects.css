@@ -2,7 +2,7 @@
 
 .projects-header h1 {
     text-align: left;
-    padding: 25px;
+    padding: 25px 25px 0px 25px;
     font-family: 'Major Mono Display', monospace;
     /* font-family: 'Staatliches', sans-serif; */
     /* font-size: 30px; */
@@ -16,10 +16,6 @@
     flex-wrap: wrap;
     flex-flow: row wrap;
     padding-bottom: 30px;
-}
-
-.cards {
-    margin: 10px;
 }
 
 .daily-news-image {
@@ -43,9 +39,8 @@ height: 212px;
 }
 
 .card {
-    margin: 20px;
-    height: 470px;
-   
+    margin: 10px 20px;
+    height: auto;
 }
 
 .card .card-text, .card-title, button a {
