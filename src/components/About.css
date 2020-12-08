@@ -2,12 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Open+Sans&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
 .about-container {
     background-color: #dcedc1;
     width: 100%;
     height: auto;
-    padding-top: 120px;
-     padding-bottom: 100px;
+    padding-top: 110px;
+    padding-bottom: 100px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -20,12 +22,14 @@
     /* max-width: 750px; */
     margin: auto;
    font-family: 'Open Sans', sans-serif;
+   font-size: 18px;
 }
   .about-container h2 {
     /* font-family: 'Reenie Beanie', sans-serif !important; */
      /* font-family: 'Major Mono Display', monospace; */
     /* font-family: 'Shadows Into Light', cursive; */
-   font-family: 'Open Sans', sans-serif;
+   /* font-family: 'Open Sans', sans-serif; */
+   font-family: 'Secular One', sans-serif;
    font-weight: bold;
     font-size: 42px !important;
 } 
@@ -42,7 +46,7 @@ h1 {
 
 
 .tech {
-    padding: 30px 0px;
+    padding: 25px 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -61,17 +65,39 @@ h1 {
 .details {
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
     align-items: left;
     justify-content: space-around;
 }
 
 .details p {
     font-family: 'Open Sans', sans-serif;
-    margin: 40px 200px 40px 40px;
+    margin: 0px 200px 40px 40px;
+    
 
 }
-
+.details button  {
+    background-color: #a37eba;
+    border:  #a37eba;
+    margin-top: 10px;
+}
 .details button a {
     color: white;
+}
+
+@media screen and (max-width: 920px) {
+    .details p {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px 20px 40px 40px;
+}
+}
+
+@media screen and (max-width: 600px) {
+    .details p {
+    font-family: 'Open Sans', sans-serif;
+    margin: 40px 20px 40px 40px;
+    } 
+    
+    .details{
+         flex-wrap: wrap;
+    }
 }

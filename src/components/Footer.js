@@ -5,8 +5,9 @@ import {FaLinkedinIn, FaGithub, FaEnvelope} from 'react-icons/fa'
 
 const Footer = () => {
     return (
-    <footer id="contact">
+    <footer>
         <h1>contact</h1>
+        <p>Send an  <a href="mailto:lchaake@gmail.com">email</a> or connect with me on LinkedIn</p>
         
         <div class="icons">
             <a href="https://github.com/lhaake" target="_blank"><FaGithub size= "35px" /></a>

@@ -12,10 +12,10 @@ const About = () => {
     return (
         <>
         
-        <div className="about-container" id="about">
+        <div className="about-container">
              
                 <h2>Hi! I'm Leah Haake</h2>   
-                <p>Full stack web developer based in Maine</p>  
+                <p>Full Stack Web Developer</p>  
         </div>
 
             <div className="tech"> 
@@ -34,11 +34,11 @@ const About = () => {
              
             <img src={biophoto} className="bio-image" alt="bio photo" />
             
-             <p>I'm a motivated and detail oriented Web Developer. My background in public health drives my interest in finding technical solutions that make a positive impact. I'm a graduate of General Assembly’s Software Engineering Immersive program. <Button variant="primary"><a href={resume} target="_blank">Resume</a></Button>
-             </p>
-            </div>
-          
-            
+             <p>I'm a motivated, detail oriented Full Stack Web Developer based in Maine. My background in public health drives my interest in finding technical solutions that make a positive impact. I'm a graduate of General Assembly’s Software Engineering Immersive program. I'm enthusiastic about learning and developing my technical skills. When I'm not coding, I enjoy running, visiting local cafes and bakeries, and exploring the beautiful Maine coast. <br />
+            <Button variant=""><a href={resume} target="_blank">Resume</a></Button>
+                 
+            </p> 
+          </div>
          </>
     )
 }

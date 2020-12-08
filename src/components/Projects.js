@@ -18,10 +18,10 @@ const Projects = () => {
             <Card.Body>
                 <Card.Title>Daily News</Card.Title>
                 <Card.Text>
-                React web app using a 3rd party API that allows users to search for news articles by keyword, and select articles as favorites. 
+                React web app using a 3rd party API that allows users to search for news articles by keyword, and select articles as favorites.
                 </Card.Text>
                 <Button variant=""><a href="https://lhaake-news-app.netlify.app/" target="_blank">Code</a></Button>
-                <Button variant=""><a href="https://lhaake-news-app.netlify.app/" target="_blank">See the app</a></Button>
+                <Button variant=""><a href="https://lhaake-news-app.netlify.app/" target="_blank">Link</a></Button>
             </Card.Body>
             </Card>
 
@@ -30,10 +30,12 @@ const Projects = () => {
             <Card.Body>
             <Card.Title>PALATE</Card.Title>
             <Card.Text>
-            Full stack web app for rating and reviewing items on a restaurant menu. As a group project, we built the app using the MERN stack (MongoDB, Express, React, NodeJS).
+            Group project. MERN full stack web app for rating and reviewing items on a restaurant menu. 
+         
+            MongoDB|Express|React|Node
             </Card.Text>
               <Button variant=""><a href="https://github.com/adeola-ak/palatefrontend" target="_blank">Code</a></Button>
-            <Button variant=""><a href="https://palateapp.netlify.app/" target="_blank">See the app</a></Button>
+            <Button variant=""><a href="https://palateapp.netlify.app/" target="_blank">Link</a></Button>
             </Card.Body>
             </Card>
 
@@ -42,10 +44,10 @@ const Projects = () => {
             <Card.Body>
                 <Card.Title>TUNR.</Card.Title>
                 <Card.Text>
-                 Full stack web app with full CRUD functionality for adding songs to a playlist and select their favorite songs. Built with React, Rails and Postgres.
+                 Full stack web app for adding songs to a playlist and select favorite songs. React|Rails|Postgres
                 </Card.Text>
                  <Button variant=""><a href="https://github.com/lhaake/tunr-rails-app-frontend" target="_blank">Code</a></Button>
-                <Button variant=""><a href="https://tunr-lhaake.netlify.app/" target="_blank">See the app</a></Button>
+                <Button variant=""><a href="https://tunr-lhaake.netlify.app/" target="_blank">Link</a></Button>
             </Card.Body>
             </Card>
 
@@ -54,10 +56,10 @@ const Projects = () => {
             <Card.Body>
                 <Card.Title>My Training Log</Card.Title>
                 <Card.Text>
-                Full stack web app for users to log their workouts with specificity: title, sport, date, time, distance, description, exertion, and more. I built the app with React, Rails, Postgres and JWT.
+                Capstone. Full stack web app for users to log their workouts in a digital journal, specifying: title, sport, date, time, distance, description, exertion, and more. React|Rails|Postgres|JWT
                 </Card.Text>
                 <Button variant=""><a href="https://github.com/lhaake/unit4-proj-frontend" target="_blank">Code</a></Button>
-                <Button variant=""><a href="https://lhaake-unit4proj.netlify.app/" target="_blank">See the app</a></Button>
+                <Button variant=""><a href="https://lhaake-unit4proj.netlify.app/" target="_blank">Link</a></Button>
             </Card.Body>
             </Card>
 
