@@ -6,19 +6,28 @@
     background-color: #dcedc1;
     width: 100%;
     height: auto;
+    padding-top: 120px;
+     padding-bottom: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
 }
 .about-container p {
     /* max-width: 750px; */
     margin: auto;
    font-family: 'Open Sans', sans-serif;
 }
-  .about-container .hello {
+  .about-container h2 {
     /* font-family: 'Reenie Beanie', sans-serif !important; */
      /* font-family: 'Major Mono Display', monospace; */
     /* font-family: 'Shadows Into Light', cursive; */
    font-family: 'Open Sans', sans-serif;
    font-weight: bold;
-    /* font-size: 42px !important; */
+    font-size: 42px !important;
 } 
 
 h1 {
@@ -29,15 +38,7 @@ h1 {
     /* font-size: 30px; */
 }
 
-.about-container {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 20px;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
+
 
 
 .tech {
@@ -49,9 +50,28 @@ h1 {
 }
 
 
-.about-container .bio-image {
-  height: 296px;
-  width: 250px;
+.details .bio-image {
+  height: 177px;
+  width: 150px;
   border-radius: 5px;
   float: left;
+  margin-left: 40px;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    align-items: left;
+    justify-content: space-around;
+}
+
+.details p {
+    font-family: 'Open Sans', sans-serif;
+    margin: 40px 200px 40px 40px;
+
+}
+
+.details button a {
+    color: white;
 }
