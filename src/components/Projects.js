@@ -15,7 +15,7 @@ const Projects = () => {
        
             
             <div className="projects-container">
-                <motion.div whileHover={{ scale: 0.5 }}>
+                <motion.div whileHover={{ scale: 1.1, transition: { duration: 0.5 } }}>
                 <Card style={{ width: '18rem' }}>
                 
                 <a href="https://lhaake-news-app.netlify.app/" target="_blank"><Card.Img variant="top" src={dailynews} className="daily-news-image" /></a>
@@ -31,6 +31,7 @@ const Projects = () => {
                 </Card>
                 </motion.div>
 
+                <motion.div whileHover={{ scale: 1.1, transition: { duration: 0.5 } }}>
                 <Card style={{ width: '18rem' }}>
                 <a href="https://palateapp.netlify.app/" target="_blank"><Card.Img variant="top" src={palate} className="palate-image" /></a>
                 <Card.Body>
@@ -44,7 +45,9 @@ const Projects = () => {
                 <Button variant=""><a href="https://palateapp.netlify.app/" target="_blank">Link</a></Button>
                 </Card.Body>
                 </Card>
+                </motion.div>
 
+                <motion.div whileHover={{ scale: 1.1, transition: { duration: 0.5 } }}>
                 <Card style={{ width: '18rem' }}>
                 <a href="https://tunr-lhaake.netlify.app/" target="_blank"><Card.Img variant="top" src={tunr} className="tunr-image" /></a>
                 <Card.Body>
@@ -56,7 +59,9 @@ const Projects = () => {
                     <Button variant=""><a href="https://tunr-lhaake.netlify.app/" target="_blank">Link</a></Button>
                 </Card.Body>
                 </Card>
+                </motion.div>
 
+                <motion.div whileHover={{ scale: 1.1, transition: { duration: 0.5 } }}>
                 <Card style={{ width: '18rem' }}>
                 <a href="https://lhaake-unit4proj.netlify.app/" target="_blank"><Card.Img variant="top" src={mtl} className="mytraininglog-image" /></a>
                 <Card.Body>
@@ -68,6 +73,7 @@ const Projects = () => {
                     <Button variant=""><a href="https://lhaake-unit4proj.netlify.app/" target="_blank">Link</a></Button>
                 </Card.Body>
                 </Card>
+                </motion.div>
         </div>
     </div>
     )

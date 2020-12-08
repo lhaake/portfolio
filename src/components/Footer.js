@@ -3,6 +3,7 @@ import emailjs from 'emailjs-com';
 import './Footer.css';
 import {FaLinkedinIn, FaGithub, FaEnvelope} from 'react-icons/fa'
 import {Form, Button} from "react-bootstrap"
+import {motion} from "framer-motion"
 
 const Footer = () => {
 
@@ -61,11 +62,11 @@ return (
     </Form>
         
         <div class="icons">
-            <a href="https://github.com/lhaake" target="_blank"><FaGithub size= "35px" /></a>
+             <motion.a whileHover={{ scale: 1.5}} href="https://github.com/lhaake" target="_blank"><FaGithub size= "35px" /></motion.a>
 
-           <a href="https://www.linkedin.com/in/leah-haake/" target="_blank"><FaLinkedinIn size= "35px"  /></a>
+            <motion.a whileHover={{ scale: 1.5}} href="https://www.linkedin.com/in/leah-haake/" target="_blank"><FaLinkedinIn size= "35px"  /></motion.a>
 
-            <a href="mailto:leahchaake@gmail.com"><FaEnvelope size= "35px" /></a>
+            <motion.a whileHover={{ scale: 1.5}} href="mailto:leahchaake@gmail.com"><FaEnvelope size= "35px" /></motion.a>
         </div>
 
  
