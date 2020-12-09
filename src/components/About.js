@@ -29,10 +29,10 @@ const About = () => {
         <h1>about</h1>
         <div className="details">     
             <img src={biophoto} className="bio-image" alt="bio photo" />
-            <p>I'm a motivated, detail oriented Software Engineer. I'm enthusiastic about learning new technologies and I approach the web development process with creativity, curiousity and tenacity.<br /><br />
+            <p>I'm a motivated, detail oriented Software Engineer. I'm enthusiastic about learning new technologies and I approach the web development process with creativity, curiousity and tenacity. I'm a graduate of General Assembly's Software Engineering Immersive program.<br /><br />
             My background is in public health and social justice.  I'm interested in finding technical solutions that make a positive impact. 
             <br /><br />
-            In my free time, I enjoy exploring the beautiful Maine coast.<br />
+            In my free time, I enjoy exploring the beautiful Maine coast.<br /><br />
             <Button variant=""><a href={resume} target="_blank">Resume</a></Button>
             </p>
         </div>
