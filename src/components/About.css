@@ -16,15 +16,17 @@
     justify-content: center;
     
 }
-.about-container p {
-    margin: auto;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-}
 .about-container h2 {
     font-family: 'Secular One', sans-serif;
     font-weight: bold;
     font-size: 42px !important;
+} 
+.about-container p {
+    font-family: 'Major Mono Display', monospace;
+    /* font-family: 'Secular One', sans-serif; */
+    /* font-family: 'Open Sans', sans-serif;  */
+    font-weight: bold;
+    /* font-size: 42px !important; */
 } 
 
 h1 {
@@ -41,23 +43,33 @@ h1 {
 }
 
 .details .bio-image {
-  height: 177px;
-  width: 150px;
+  /* height: 177px;
+  width: 150px; */
+height: 296px;
+  width: 250px;
   border-radius: 5px;
-  float: left;
-  margin-left: 40px;
+  /* float: left; */
+  margin-left: 150px;
+  font-size: 20px;
 }
 
 .details {
     display: flex;
     flex-direction: row;
     align-items: left;
-    justify-content: space-around;
+    justify-content: left;
+    padding-bottom: 20px;
 }
 
 .details p {
     font-family: 'Open Sans', sans-serif;
-    margin: 0px 200px 40px 40px;
+    /* margin: 0px 200px 40px 40px; */
+    margin: 0px 100px 0px 20px;
+    /* font-size: 18px; */
+    font-size: 1.2rem;
+    line-height: 1.5;
+    /* padding: 0.75rem 0; */
+
 }
 
 .details button  {

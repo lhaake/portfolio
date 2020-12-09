@@ -13,7 +13,7 @@ const About = () => {
         <>
         <div className="about-container">
                 <h2>Hi! I'm Leah Haake</h2>   
-                <p>Software Engineer</p>  
+                <p>software engineer</p>  
         </div>
         <div className="tech"> 
             <SiHtml5 size="30px" />
@@ -29,9 +29,12 @@ const About = () => {
         <h1>about</h1>
         <div className="details">     
             <img src={biophoto} className="bio-image" alt="bio photo" />
-            <p>I'm a motivated, detail oriented Software Engineer based in Maine. I'm a graduate of General Assembly’s Software Engineering Immersive program. I'm enthusiastic about learning new technologies and using my creativity, curiousity and tenacity to solve  problems. My background in public health drives my interest in finding technical solutions that make a positive impact. <br /><br />In my free time, I enjoy hiking and exploring the beautiful Maine coast. <br />
+            <p>I'm a motivated, detail oriented Software Engineer. I'm enthusiastic about learning new technologies and I approach the web development process with creativity, curiousity and tenacity.<br /><br />
+            My background is in public health and social justice.  I'm interested in finding technical solutions that make a positive impact. 
+            <br /><br />
+            In my free time, I enjoy exploring the beautiful Maine coast.<br />
             <Button variant=""><a href={resume} target="_blank">Resume</a></Button>
-            </p> 
+            </p>
         </div>
     </>
     )

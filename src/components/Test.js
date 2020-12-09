@@ -1,12 +1,15 @@
+
 import React, {useState} from 'react'
 import emailjs from 'emailjs-com';
-import './Footer.css';
+
 import {FaLinkedinIn, FaGithub, FaEnvelope} from 'react-icons/fa'
 import {Form, Button} from "react-bootstrap"
 import {motion} from "framer-motion"
 
-const Footer = () => {
+import './Test.css';
 
+
+const Test = () => {
 const emptyForm = {
       user_name: "",
       user_email: "",
@@ -36,25 +39,23 @@ const sendEmail = (e) => {
 const handleChange = (event) => {
    setFormData({...formData, [event.target.name]: event.target.value })
 }
-
 return (
-    <footer>
-        <h1>contact</h1>
-        <p>Fill out the contact form to get in touch!</p>
-    { msgsent ? <h3>{thankyoumsg}</h3> : null   }    
+    <div className="test-container">
 
+        <div className="test-col1">
+            <h1>Column1</h1>
 
-    <Form className="contact-form" onSubmit={sendEmail}>
+        <Form className="test-form" onSubmit={sendEmail}>
 
-    <Form.Group controlId="name">
+    <Form.Group controlId="">
         <Form.Label>Name</Form.Label>
         <Form.Control type="text" name="user_name" placeholder="" value={formData.user_name} onChange={handleChange} />
     </Form.Group>
-    <Form.Group controlId="email">
+    <Form.Group controlId="">
         <Form.Label>Email</Form.Label>
         <Form.Control type="email" name="user_email" placeholder="" value={formData.user_email} onChange={handleChange}   />
     </Form.Group>
-    <Form.Group controlId="message">
+    <Form.Group controlId="">
         <Form.Label>Message</Form.Label>
         <Form.Control as="textarea" rows={3} name="message" value={formData.message} onChange={handleChange} />
     </Form.Group>
@@ -62,15 +63,20 @@ return (
        Send
     </Button>
     </Form>
- 
-    <div class="icons">
-        <motion.a whileHover={{ scale: 1.5}} href="https://github.com/lhaake" target="_blank"><FaGithub size= "35px" /></motion.a>
+        </div>
+
+        <div className="test-col2">
+            <h1>Column2</h1>
+                    <motion.a whileHover={{ scale: 1.5}} href="https://github.com/lhaake" target="_blank"><FaGithub size= "35px" /></motion.a>
 
         <motion.a whileHover={{ scale: 1.5}} href="https://www.linkedin.com/in/leah-haake/" target="_blank"><FaLinkedinIn size= "35px"  /></motion.a>
 
         <motion.a whileHover={{ scale: 1.5}} href="mailto:leahchaake@gmail.com"><FaEnvelope size= "35px" /></motion.a>
+        </div>
+
+       
+
     </div>
-    </footer>
     )
 }
-export default Footer
+export default Test
