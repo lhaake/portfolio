@@ -40,7 +40,7 @@ const handleChange = (event) => {
 return (
     <footer>
         <h1>contact</h1>
-        <p>Let's connect! Fill out the contact form to get in touch!</p>
+        <p>Fill out the contact form to get in touch!</p>
         { msgsent ? <h3>{thankyoumsg}</h3> : null   }    
         <Form className="contact-form" onSubmit={sendEmail}>
 
