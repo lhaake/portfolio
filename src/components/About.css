@@ -4,7 +4,7 @@
     width: 100%;
     height: auto;
     padding-top: 110px;
-    padding-bottom: 100px;
+    padding-bottom: 90px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -24,7 +24,7 @@
 .about-container h2 {
     font-family: 'Secular One', sans-serif;
     font-weight: bold;
-    font-size: 42px !important;
+    font-size: 46px !important;
 } 
 
 h1 {
@@ -68,6 +68,11 @@ h1 {
 
 .details button a {
     color: white;
+    text-decoration: none;
+}
+.details button a:hover {
+    color: black;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 920px) {
