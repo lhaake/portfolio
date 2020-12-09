@@ -6,14 +6,18 @@ import tunr from '../images/tunr.png';
 import palate from '../images/palate.png';
 import mtl from '../images/mtl.png';
 import './Projects.css';
+import {motion} from "framer-motion"
 
 const Projects = () => {
     return (
         <div className="projects-header">
             <h1>projects</h1>
        
+            
             <div className="projects-container">
+                <motion.div whileHover={{ scale: 1.1, transition: { duration: 0.5 } }}>
                 <Card style={{ width: '18rem' }}>
+                
                 <a href="https://lhaake-news-app.netlify.app/" target="_blank"><Card.Img variant="top" src={dailynews} className="daily-news-image" /></a>
                 <Card.Body>
                     <Card.Title>Daily News</Card.Title>
@@ -23,8 +27,11 @@ const Projects = () => {
                     <Button variant=""><a href="https://lhaake-news-app.netlify.app/" target="_blank">Code</a></Button>
                     <Button variant=""><a href="https://lhaake-news-app.netlify.app/" target="_blank">Link</a></Button>
                 </Card.Body>
+                
                 </Card>
+                </motion.div>
 
+                <motion.div whileHover={{ scale: 1.1, transition: { duration: 0.5 } }}>
                 <Card style={{ width: '18rem' }}>
                 <a href="https://palateapp.netlify.app/" target="_blank"><Card.Img variant="top" src={palate} className="palate-image" /></a>
                 <Card.Body>
@@ -38,7 +45,9 @@ const Projects = () => {
                 <Button variant=""><a href="https://palateapp.netlify.app/" target="_blank">Link</a></Button>
                 </Card.Body>
                 </Card>
+                </motion.div>
 
+                <motion.div whileHover={{ scale: 1.1, transition: { duration: 0.5 } }}>
                 <Card style={{ width: '18rem' }}>
                 <a href="https://tunr-lhaake.netlify.app/" target="_blank"><Card.Img variant="top" src={tunr} className="tunr-image" /></a>
                 <Card.Body>
@@ -50,7 +59,9 @@ const Projects = () => {
                     <Button variant=""><a href="https://tunr-lhaake.netlify.app/" target="_blank">Link</a></Button>
                 </Card.Body>
                 </Card>
+                </motion.div>
 
+                <motion.div whileHover={{ scale: 1.1, transition: { duration: 0.5 } }}>
                 <Card style={{ width: '18rem' }}>
                 <a href="https://lhaake-unit4proj.netlify.app/" target="_blank"><Card.Img variant="top" src={mtl} className="mytraininglog-image" /></a>
                 <Card.Body>
@@ -62,6 +73,7 @@ const Projects = () => {
                     <Button variant=""><a href="https://lhaake-unit4proj.netlify.app/" target="_blank">Link</a></Button>
                 </Card.Body>
                 </Card>
+                </motion.div>
         </div>
     </div>
     )

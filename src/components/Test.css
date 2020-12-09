@@ -1,0 +1,21 @@
+.test-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    /* justify-items: center; */
+}
+
+.test-col1 {
+    padding-left: 40px;
+}
+
+.test-col2 {
+    justify-self: center;
+    justify-items: center;
+}
+.test-col2 a {
+    padding: 0px 50px;
+    justify-self: center;
+    justify-items: center;
+}
+
