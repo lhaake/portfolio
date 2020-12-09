@@ -1,13 +1,15 @@
 
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+
+/* .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 
 .App-header {
   background-color: #282c34;
@@ -22,6 +24,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-
+} */

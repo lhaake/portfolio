@@ -40,36 +40,34 @@ const handleChange = (event) => {
 return (
     <footer>
         <h1>contact</h1>
-        <p>Let's connect! Fill out the contact form to get in touch!</p>
-    { msgsent ? <h3>{thankyoumsg}</h3> : null   }    
+        <p>Fill out the contact form to get in touch!</p>
+        { msgsent ? <h3>{thankyoumsg}</h3> : null   }    
+        <Form className="contact-form" onSubmit={sendEmail}>
 
-
-    <Form className="contact-form" onSubmit={sendEmail}>
-
-    <Form.Group controlId="name">
-        <Form.Label>Name</Form.Label>
-        <Form.Control type="text" name="user_name" placeholder="" value={formData.user_name} onChange={handleChange} />
-    </Form.Group>
-    <Form.Group controlId="email">
-        <Form.Label>Email</Form.Label>
-        <Form.Control type="email" name="user_email" placeholder="" value={formData.user_email} onChange={handleChange}   />
-    </Form.Group>
-    <Form.Group controlId="message">
-        <Form.Label>Message</Form.Label>
-        <Form.Control as="textarea" rows={3} name="message" value={formData.message} onChange={handleChange} />
-    </Form.Group>
-    <Button variant="" type="submit" value="Send">
-       Send
-    </Button>
-    </Form>
+        <Form.Group controlId="name">
+            <Form.Label>Name</Form.Label>
+            <Form.Control type="text" name="user_name" placeholder="" value={formData.user_name} onChange={handleChange} />
+        </Form.Group>
+        <Form.Group controlId="email">
+            <Form.Label>Email</Form.Label>
+            <Form.Control type="email" name="user_email" placeholder="" value={formData.user_email} onChange={handleChange}   />
+        </Form.Group>
+        <Form.Group controlId="message">
+            <Form.Label>Message</Form.Label>
+            <Form.Control as="textarea" rows={3} name="message" value={formData.message} onChange={handleChange} />
+        </Form.Group>
+        <Button variant="" type="submit" value="Send">
+        Send
+        </Button>
+        </Form>
  
-    <div class="icons">
-        <motion.a whileHover={{ scale: 1.5}} href="https://github.com/lhaake" target="_blank"><FaGithub size= "35px" /></motion.a>
+        <div class="icons">
+            <motion.a whileHover={{ scale: 1.2}} href="https://github.com/lhaake" target="_blank"><FaGithub size= "35px" /></motion.a>
 
-        <motion.a whileHover={{ scale: 1.5}} href="https://www.linkedin.com/in/leah-haake/" target="_blank"><FaLinkedinIn size= "35px"  /></motion.a>
+            <motion.a whileHover={{ scale: 1.2}} href="https://www.linkedin.com/in/leah-haake/" target="_blank"><FaLinkedinIn size= "35px"  /></motion.a>
 
-        <motion.a whileHover={{ scale: 1.5}} href="mailto:leahchaake@gmail.com"><FaEnvelope size= "35px" /></motion.a>
-    </div>
+            <motion.a whileHover={{ scale: 1.2}} href="mailto:leahchaake@gmail.com"><FaEnvelope size= "35px" /></motion.a>
+        </div>
     </footer>
     )
 }
