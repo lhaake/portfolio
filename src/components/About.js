@@ -12,7 +12,7 @@ const About = () => {
     return (
         <>
         <div className="about-container">
-                <h2>Hi! I'm Leah Haake</h2>   
+                <h2>Leah Haake</h2>   
                 <p>software engineer</p>  
         </div>
         <div className="tech"> 
