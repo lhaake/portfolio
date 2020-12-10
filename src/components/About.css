@@ -33,7 +33,7 @@ h1 {
     font-family: 'Major Mono Display', monospace;
 }
 
-.tech, .labels{
+.tech-icons {
     padding: 25px 0px;
     display: flex;
     flex-direction: row;
@@ -41,7 +41,7 @@ h1 {
     flex-wrap: wrap;   
 }
 
-.tech p {
+.tech-icons p {
     font-size: 11px;
     font-family: 'Open Sans', sans-serif;
 }
