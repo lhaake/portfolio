@@ -19,7 +19,7 @@ const About = () => {
         <div className="tech"> 
             <p><SiHtml5 size="30px" /><br />HTML</p>
             <p><SiCss3 size="30px" /><br />CSS</p>
-            <p><SiJavascript size="30px" /><br />Javascript</p>
+            <p><SiJavascript size="30px" /><br />JavaScript</p>
             <p><FaReact size="30px" /><br />React</p>
             <p><FaNode size="30px" /><br />Node.js</p>
             <p><SiMongodb size="30px" /><br />MongoDB</p> 
