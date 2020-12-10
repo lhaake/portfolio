@@ -33,11 +33,17 @@ h1 {
     font-family: 'Major Mono Display', monospace;
 }
 
-.tech {
+.tech, .labels{
     padding: 25px 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;   
+}
+
+.tech p {
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .details .bio-image {

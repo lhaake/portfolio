@@ -15,34 +15,17 @@ const Projects = () => {
        
             
             <div className="projects-container">
-                <motion.div whileHover={{ scale: 1.1, transition: { duration: 0.5 } }}>
-                <Card style={{ width: '18rem' }}>
-                
-                <a href="https://lhaake-news-app.netlify.app/" target="_blank"><Card.Img variant="top" src={dailynews} className="daily-news-image" /></a>
-                <Card.Body>
-                    <Card.Title>Daily News</Card.Title>
-                    <Card.Text>
-                    React web app using a 3rd party API that allows users to search for news articles by keyword, and select articles as favorites.
-                    </Card.Text>
-                    <Button variant=""><a href="https://lhaake-news-app.netlify.app/" target="_blank">Code</a></Button>
-                    <Button variant=""><a href="https://lhaake-news-app.netlify.app/" target="_blank">Link</a></Button>
-                </Card.Body>
-                
-                </Card>
-                </motion.div>
 
                 <motion.div whileHover={{ scale: 1.1, transition: { duration: 0.5 } }}>
                 <Card style={{ width: '18rem' }}>
-                <a href="https://palateapp.netlify.app/" target="_blank"><Card.Img variant="top" src={palate} className="palate-image" /></a>
+                <a href="https://lhaake-unit4proj.netlify.app/" target="_blank"><Card.Img variant="top" src={mtl} className="mytraininglog-image" /></a>
                 <Card.Body>
-                <Card.Title>PALATE</Card.Title>
-                <Card.Text>
-                Group project. MERN full stack web app for rating and reviewing items on a restaurant menu. 
-            
-                MongoDB|Express|React|Node
-                </Card.Text>
-                <Button variant=""><a href="https://github.com/adeola-ak/palatefrontend" target="_blank">Code</a></Button>
-                <Button variant=""><a href="https://palateapp.netlify.app/" target="_blank">Link</a></Button>
+                    <Card.Title>My Training Log</Card.Title>
+                    <Card.Text>
+                    Capstone. Full stack web app for users to log their workouts in a digital journal, specifying: title, sport, date, time, distance, description, exertion, and more. React|Rails|Postgres|JWT
+                    </Card.Text>
+                    <Button variant=""><a href="https://github.com/lhaake/unit4-proj-frontend" target="_blank">Code</a></Button>
+                    <Button variant=""><a href="https://lhaake-unit4proj.netlify.app/" target="_blank">Link</a></Button>
                 </Card.Body>
                 </Card>
                 </motion.div>
@@ -63,15 +46,34 @@ const Projects = () => {
 
                 <motion.div whileHover={{ scale: 1.1, transition: { duration: 0.5 } }}>
                 <Card style={{ width: '18rem' }}>
-                <a href="https://lhaake-unit4proj.netlify.app/" target="_blank"><Card.Img variant="top" src={mtl} className="mytraininglog-image" /></a>
+                <a href="https://palateapp.netlify.app/" target="_blank"><Card.Img variant="top" src={palate} className="palate-image" /></a>
                 <Card.Body>
-                    <Card.Title>My Training Log</Card.Title>
-                    <Card.Text>
-                    Capstone. Full stack web app for users to log their workouts in a digital journal, specifying: title, sport, date, time, distance, description, exertion, and more. React|Rails|Postgres|JWT
-                    </Card.Text>
-                    <Button variant=""><a href="https://github.com/lhaake/unit4-proj-frontend" target="_blank">Code</a></Button>
-                    <Button variant=""><a href="https://lhaake-unit4proj.netlify.app/" target="_blank">Link</a></Button>
+                <Card.Title>PALATE</Card.Title>
+                <Card.Text>
+                Group project. MERN full stack web app for rating and reviewing items on a restaurant menu. 
+            
+                MongoDB|Express|React|Node
+                </Card.Text>
+                <Button variant=""><a href="https://github.com/adeola-ak/palatefrontend" target="_blank">Code</a></Button>
+                <Button variant=""><a href="https://palateapp.netlify.app/" target="_blank">Link</a></Button>
                 </Card.Body>
+                </Card>
+                </motion.div>
+
+
+                
+                <motion.div whileHover={{ scale: 1.1, transition: { duration: 0.5 } }}>
+                <Card style={{ width: '18rem' }}>
+                
+                <a href="https://lhaake-news-app.netlify.app/" target="_blank"><Card.Img variant="top" src={dailynews} className="daily-news-image" /></a>
+                <Card.Body>
+                    <Card.Title>Daily News</Card.Title>
+                    <Card.Text>
+                    React web app using a 3rd party API that allows users to search for news articles by keyword, and select articles as favorites.
+                    </Card.Text>
+                    <Button variant=""><a href="https://lhaake-news-app.netlify.app/" target="_blank">Code</a></Button>
+                    <Button variant=""><a href="https://lhaake-news-app.netlify.app/" target="_blank">Link</a></Button>
+                </Card.Body> 
                 </Card>
                 </motion.div>
         </div>
