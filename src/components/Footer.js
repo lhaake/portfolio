@@ -11,7 +11,7 @@ const emptyForm = {
       user_name: "",
       user_email: "",
       message: "",
-    }
+}
 const [formData, setFormData] = useState(emptyForm)
 const [msgsent, setmsgSent] = useState(false)
 

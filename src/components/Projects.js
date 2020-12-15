@@ -12,7 +12,7 @@ const Projects = () => {
     return (
         <div className="projects-header">
             <h1>projects</h1>
-            <p className="projects-intro">I built the following projects from September - November 2020 while a student in General Assembly's Software Engineering Immersive program. The GitHub repos and live project links are featured below!</p>
+            <p className="projects-intro">I built the following projects from September - November 2020 while a student in General Assembly's Software Engineering Immersive program. Find the GitHub repos and live links below.</p>
             
             <div className="projects-container">
 
@@ -26,6 +26,7 @@ const Projects = () => {
                     </Card.Text>
                     <Button variant=""><a href="https://github.com/lhaake/unit4-proj-frontend" target="_blank">Code</a></Button>
                     <Button variant=""><a href="https://lhaake-unit4proj.netlify.app/" target="_blank">Link</a></Button>
+                    <Button variant=""><a href="https://youtu.be/YhMWm5Jp8fQ" target="_blank">Video</a></Button>
                 </Card.Body>
                 </Card>
                 </motion.div>
