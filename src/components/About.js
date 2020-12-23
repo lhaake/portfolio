@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css';
 import Button from 'react-bootstrap/Button';
-import resume from "../files/Leah-Haake-Resume.pdf"
+import resume from "../files/Leah_Haake_Resume.pdf"
 import biophoto from '../images/bio-photo.JPG';
 import {FaReact, FaNode } from 'react-icons/fa'
 import {SiJavascript, SiHtml5, SiRails, SiPostgresql, SiCss3, SiMongodb} from 'react-icons/si'
